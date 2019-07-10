@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <title>The Monkeys</title>
+    <title>The Monkees</title>
 </head>
 <body>
     <header>
@@ -18,25 +18,101 @@
         <div class="menuDiv">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Songs</a>
+                    <a class="nav-link" href="songs.html">Songs</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Bookings</a>
+                    <a class="nav-link" href="bookings.html">Bookings</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
     </header>
     <section>
-        
+        <div class="bookingsContainer bookingsBackground">
+            <h3>Bookings</h3>
+            <br><br>
+            <p>Below is the bookings for the band this year</p>
+            <br>
+            <p>If you would like to book the band for an appearance, fill in our form at the end of the page
+            with the details and we will get back to you as soon as possible</p>
+            <br>
+            <div class="bookingsListContainer">
+                <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">From</th>
+                        <th scope="col">To</th>
+                        <th scope="col">Location</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01/02/2019</td>
+                        <td>01/02/2019</td>
+                        <td>Richmond, VA</td>
+                    </tr>
+                    <tr>
+                        <td>20/05/2019</td>
+                        <td>25/05/2019</td>
+                        <td>Tuscon, AR</td>
+                    </tr>
+                    <tr>
+                        <td>06/07/2019</td>
+                        <td>07/07/2019</td>
+                        <td>San Diego, CA</td>
+                    </tr>
+                    <tr>
+                        <td>28/07/2019</td>
+                        <td>28/07/2019</td>
+                        <td>Denver, CO</td>
+                    </tr>
+                    <tr>
+                        <td>22/08/2019</td>
+                        <td>22/08/2019</td>
+                        <td>San Diego, CO</td>
+                    </tr>
+                    <tr>
+                        <td>29/07/2019</td>
+                        <td>29/07/2019</td>
+                        <td>New York, NY</td>
+                    </tr>
+                    <tr>
+                        <td>06/09/2019</td>
+                        <td>11/09/2019</td>
+                        <td>Hartford, CT</td>
+                    </tr>
+                    </tr>
+                </tbody>
+            </table>    
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h5 class="uppercase text-center">Booking Application</h5>
+                    <div class="center-form">
+                        <form>
+                            <input type="text" name="name" id="fullName" class="form-control" placeholder="Name" required/>
+                            <input type="email" name="email" id="emailAddress" class="form-control" placeholder="Email" required/>
+                            <input type="date" name="startDate" id="startDate" class="form-control" placeholder="Start Date" required/>
+                            <input type="date" name="endDate" id="endDate" class="form-control" placeholder="End Date" required/>
+                            <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Description of event" required/></textarea>
+                            <div class="form-row text-center">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-secondary">Send Booking Request</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>    
     </section>
     <footer>
         <div class="footer">
