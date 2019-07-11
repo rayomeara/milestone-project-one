@@ -55,7 +55,10 @@ header {
     color: #000000;
 }
 
-
+.menuDiv a:hover {
+    background: #000000;
+    color: #ffffff;
+}
 /* --------------------------------------------- Footer */
 
 
