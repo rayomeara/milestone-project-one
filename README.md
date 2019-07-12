@@ -11,3 +11,6 @@ This project will be using HTML5, CSS3 and Bootstrap. Testing was done to ensure
 that the page links work as expected and that mobile and desktop views are 
 catered for.
 
+
+The project start page is:
+https://rayomeara.github.io/milestone-project-one/
