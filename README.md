@@ -22,9 +22,9 @@ Wireframes from the project can be found in the 'wireframes' folder.
 
 Technologies
 
-HTML5
-CSS3
-Bootstrap 4.3.1
+HTML5,
+CSS3,
+Bootstrap 4.3.1,
 FontAwesome 4.7.0
 
 
@@ -84,6 +84,3 @@ upon new commits to the master branch.
 To run locally, clone the repository using the command:
 
 git clone https://github.com/rayomeara/milestone-project-one.git
-
-
-https://github.com/rayomeara/milestone-project-one.git
