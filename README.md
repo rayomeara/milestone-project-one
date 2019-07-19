@@ -5,9 +5,8 @@ resourse site for all their old and future hits.
 The band also want a site that allows for bookings to to special events and a 
 means of showing their availability for the year.
 
-
-
-UX
+---
+###UX
 
 I had a lot of difficulty coming up with ideas as to how the site should look. 
 In the end, I went with a look that was simple, vibrant with colour and with all
@@ -19,17 +18,29 @@ be used from, so anyone who uses it from a phone, tablet or desktop should have
 a good experience and find it easy to get what they want from the site.
 Wireframes from the project can be found in the 'wireframes' folder.
 
+https://github.com/rayomeara/milestone-project-one/tree/master/wireframes
 
-Technologies
+The site handles many different users:
+* A new user coming to the site can read the home page and click on links to go to
+the music offerings. 
+* Old fans can go to the music directly and download their favourites. 
+* For the users curious as to the bands origins, they can read all the info and 
+band details in the _About_ section. 
+* Fans wanting to get in touch can leave messages using the _Contact_ application 
+form, email or postal address.
+* People visiting to book the band can read the list of bookings and apply for a
+booking themselves
+
+---
+###Technologies
 
 HTML5,
 CSS3,
 Bootstrap 4.3.1,
 FontAwesome 4.7.0
 
-
-
-Features
+---
+###Features
 
 The site employs the basic funstionality for a band. Welcome and about pages to 
 introduce the members to new fans, a songs page that has some of the bands songs 
@@ -39,7 +50,8 @@ application form to allow anyone to book the band on dates of their choosing
 (availability allowing of course). There is also a page to allow for fans to 
 contact the band either through the page, through email or by post.
 
-Features to do
+---
+###Features to do
 
 The site still needs to have the social links and email links done so as to 
 point to actual media. There was also a problem with employing the video 
@@ -48,9 +60,8 @@ recognized by the video HTML5 component so new material is needed. The date
 labelling is also a hack for Chrome, so for other browsers, a better
 implementation would be needed.
 
-
-
-Testing
+---
+###Testing
 
 The testing for this app was focused on 2 different types of user. Firstly, one
 who already knows the band and secondly, people who have never heard of the band
@@ -70,9 +81,8 @@ This site was tested across multiple browsers (Chrome, Internet Explorer,
 FireFox) and on multiple mobile devices (iPhone 4, 5, 7: Chrome, iPad, 
 Samsung Galaxy) to ensure compatibility and responsiveness.
 
-
-
-Deployment
+---
+###Deployment
 
 The site is currently being hosted at:
 

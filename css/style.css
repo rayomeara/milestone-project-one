@@ -108,12 +108,12 @@ section {
 }
 
 .welcomeContainer a {
-    text-decoration: none;
-    color: #000000;
+    color: #e84610;
+    text-decoration: underline;
 }
 
 .welcomeContainer a:hover {
-    color: #FFFFFF;
+    color: #e00000;
 }
 
 /* --------------------------------------------- About */
